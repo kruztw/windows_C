@@ -1,0 +1,8 @@
+1. 開啟 iexample 執行得到 DLL 檔
+2. 開啟 regiexample 執行得到 exe 檔 (失敗正常)
+3. 到 regiexample/Debug/ 用管理員身分執行 exe 檔
+4. 開啟 regiexample 執行
+5. 開啟 unregiexample 執行得到 exe 檔 (失敗正常)
+6. 到 unregiexample/Debug/ 用管理員身分執行 exe 檔
+
+註: 記得取消註冊, 否則 registry 會保留 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\WOW6432Node\CLSID\{6899A2A3-405B-44D4-A415-E08CEE2A97CB} 
